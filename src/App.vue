@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="red">
     {{ text }}
     {{ test }}
   </div>
@@ -16,4 +16,8 @@ export default {
 }
 </script>
 
-<style></style>
+<style>
+.red {
+  color: red;
+}
+</style>
