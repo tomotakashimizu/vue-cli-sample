@@ -1,23 +1,15 @@
 <template>
-  <div class="red">
-    {{ text }}
-    {{ test }}
+  <div>
+    <Human />
   </div>
 </template>
 
 <script>
+import Human from "@/components/Human.vue"
+
 export default {
-  data() {
-    return {
-      text: "Hello",
-      test: "テストです。",
-    }
+  components: {
+    Human,
   },
 }
 </script>
-
-<style>
-.red {
-  color: red;
-}
-</style>
