@@ -1,9 +1,10 @@
 <template>
   <div class="human">
     <div class="atama">
-      <div>😊</div>
+      <div v-if="isLaughing">🤣</div>
+      <div v-else>😊</div>
     </div>
-    <div class="karada">
+    <div class="karada" v-on:click="makeLaugh">
       <div>💪👕💪</div>
     </div>
     <div class="ashi">
@@ -11,6 +12,21 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      isLaughing: false,
+    }
+  },
+  methods: {
+    makeLaugh() {
+      this.isLaughing = true
+    },
+  },
+}
+</script>
 
 <style>
 .human {
