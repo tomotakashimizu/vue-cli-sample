@@ -1,6 +1,10 @@
 <template>
-  <div>
+  <div class="container">
     <!-- 3. 普通の HTML のタグのように Human コンポーネントを書く -->
+    <Human />
+    <Human />
+    <Human />
+    <Human />
     <Human />
   </div>
 </template>
@@ -17,3 +21,9 @@ export default {
   },
 }
 </script>
+
+<style scoped>
+.container {
+  display: flex;
+}
+</style>
