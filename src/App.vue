@@ -10,10 +10,20 @@
     </div>
     <div class="app">
       <!-- <simple-memo /> -->
+
       <simple-memo>メモ１</simple-memo>
       <simple-memo>メモ２</simple-memo>
+
       <simple-memo v-for="memo in memos" v-bind:key="memo.id">
         {{ memo.text }}
+      </simple-memo>
+
+      <simple-memo>
+        <button>メモ１ボタン</button>
+      </simple-memo>
+      <simple-memo>
+        <div>メモ２−１です</div>
+        <div>メモ２−２です</div>
       </simple-memo>
     </div>
   </div>
