@@ -9,7 +9,9 @@
       <Human />
     </div>
     <div class="app">
-      <simple-memo />
+      <!-- <simple-memo /> -->
+      <simple-memo>メモ１</simple-memo>
+      <simple-memo>メモ２</simple-memo>
     </div>
   </div>
 </template>

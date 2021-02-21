@@ -1,6 +1,8 @@
 <template>
   <div class="simple-memo">
-    メモ
+    <!-- メモ -->
+    <!-- 「メモ」を「<slot />」におきかえただけ -->
+    <slot />
   </div>
 </template>
 
