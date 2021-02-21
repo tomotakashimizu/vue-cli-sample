@@ -8,7 +8,12 @@
 
 <script>
 export default {
-  props: ["bgColor"],
+  props: {
+    bgColor: {
+      type: String,
+      default: "orange",
+    },
+  },
 }
 </script>
 
