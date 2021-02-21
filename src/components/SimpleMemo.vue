@@ -10,8 +10,9 @@
 export default {
   props: {
     bgColor: {
-      type: String,
-      default: "orange",
+      validator(value) {
+        return ["orange", "pink", "green"].includes(value)
+      },
     },
   },
 }
