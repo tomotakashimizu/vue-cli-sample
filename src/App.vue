@@ -25,6 +25,10 @@
         <div>メモ２−１です</div>
         <div>メモ２−２です</div>
       </simple-memo>
+
+      <simple-memo bgColor="orange">オレンジ</simple-memo>
+      <simple-memo bgColor="pink">ピンク</simple-memo>
+      <simple-memo bgColor="green">みどり</simple-memo>
     </div>
   </div>
 </template>

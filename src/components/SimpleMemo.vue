@@ -1,10 +1,16 @@
 <template>
-  <div class="simple-memo">
+  <div class="simple-memo" v-bind:style="{ backgroundColor: bgColor }">
     <!-- メモ -->
     <!-- 「メモ」を「<slot />」におきかえただけ -->
     <slot />
   </div>
 </template>
+
+<script>
+export default {
+  props: ["bgColor"],
+}
+</script>
 
 <style scoped>
 .simple-memo {
