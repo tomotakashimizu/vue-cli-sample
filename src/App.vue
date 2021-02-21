@@ -29,6 +29,10 @@
       <simple-memo bgColor="orange">オレンジ</simple-memo>
       <simple-memo bgColor="pink">ピンク</simple-memo>
       <simple-memo bgColor="green">みどり</simple-memo>
+
+      <simple-memo colorType="orange">オレンジ</simple-memo>
+      <simple-memo colorType="pink">ピンク</simple-memo>
+      <simple-memo colorType="green">みどり</simple-memo>
     </div>
   </div>
 </template>
