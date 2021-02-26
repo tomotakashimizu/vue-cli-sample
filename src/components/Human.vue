@@ -5,7 +5,8 @@
       <div v-else>😊</div>
     </div>
     <div class="karada" v-on:click="makeLaugh">
-      <div>💪👕💪</div>
+      <!-- <div>💪👕💪</div> -->
+      <div>💪<slot />💪</div>
     </div>
     <div class="ashi">
       <div>🦵🦵</div>

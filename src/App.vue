@@ -7,6 +7,9 @@
       <Human />
       <Human />
       <Human />
+
+      <human>👕</human>
+      <Human>👕</Human>
     </div>
     <div class="app">
       <!-- <simple-memo /> -->
