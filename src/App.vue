@@ -1,5 +1,6 @@
 <template>
   <div>
+    <h1>Human</h1>
     <div class="container">
       <!-- 3. 普通の HTML のタグのように Human コンポーネントを書く -->
       <Human />
@@ -11,9 +12,12 @@
       <human>👕</human>
       <Human>👕</Human>
     </div>
+
     <div class="counter">
       <Counter />
     </div>
+
+    <h1>メモ</h1>
     <div class="app">
       <!-- <simple-memo /> -->
 
