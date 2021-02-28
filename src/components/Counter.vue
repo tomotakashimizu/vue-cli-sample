@@ -2,7 +2,7 @@
   <div>
     <h1>カウンター</h1>
     <!-- <div>{{ count }}</div> -->
-    <div v-bind:initialValue="initialValue">{{ initialValue }}</div>
+    <div v-bind:initialValue="initialValue">{{ count }}</div>
     <button v-on:click="countUp">＋１</button>
   </div>
 </template>
@@ -15,15 +15,15 @@ export default {
       required: true,
     },
   },
-  // data() {
-  //   return {
-  //     count: 0,
-  //   }
-  // },
+  data() {
+    return {
+      count: this.initialValue,
+    }
+  },
   methods: {
     countUp() {
-      // this.count += 1
-      this.initialValue += 1
+      this.count += 1
+      // this.initialValue += 1
     },
   },
 }
