@@ -11,6 +11,9 @@
       <human>👕</human>
       <Human>👕</Human>
     </div>
+    <div class="counter">
+      <Counter />
+    </div>
     <div class="app">
       <!-- <simple-memo /> -->
 
@@ -56,6 +59,7 @@
 import Human from "@/components/Human.vue" // 1. Human コンポーネントを Human.vue から読み込む
 import SimpleMemo from "./components/SimpleMemo.vue"
 import SimpleMemoTwo from "./components/SimpleMemoTwo.vue"
+import Counter from "./components/Counter.vue"
 
 export default {
   components: {
@@ -65,6 +69,7 @@ export default {
 
     SimpleMemo,
     SimpleMemoTwo,
+    Counter,
   },
   data() {
     return {
