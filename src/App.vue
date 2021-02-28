@@ -14,7 +14,9 @@
     </div>
 
     <div class="counter">
-      <Counter />
+      <!-- <Counter /> -->
+      <Counter v-bind:initialValue="42" />
+      <Counter v-bind:initialValue="aa" />
     </div>
 
     <h1>メモ</h1>
