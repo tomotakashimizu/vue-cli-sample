@@ -1,4 +1,4 @@
-# vue-cli-sample-app
+# vue-cli-sample
 
 ## Project setup
 
