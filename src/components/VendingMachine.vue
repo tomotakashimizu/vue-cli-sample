@@ -2,6 +2,8 @@
   <div>
     <h1>自動販売機</h1>
     <ul>
+      <!-- v-forの書き方注意（下記サイト参照） -->
+      <!-- https://eslint.vuejs.org/rules/require-v-for-key.html -->
       <li v-for="(drink, index) in drinks.drinks" :key="drink.id">
         {{ drink }}
         <button v-on:click="buyDrink(index)">
@@ -16,6 +18,8 @@
     <p>投入金額：{{ totalMoney }}円</p>
     <button v-on:click="clearTotalMoney">投入金額をクリア</button>
     <ul>
+      <!-- v-forの書き方注意（下記サイト参照） -->
+      <!-- https://eslint.vuejs.org/rules/require-v-for-key.html -->
       <li v-for="(list, index) in lists" :key="list.id">
         {{ list }}
         <button v-on:click="deleteList(index)">削除</button>
