@@ -19,6 +19,10 @@
       <Counter v-bind:initialValue="aa" />
     </div>
 
+    <div class="vending-machine">
+      <VendingMachine />
+    </div>
+
     <div class="dog-api">
       <dog-api />
     </div>
@@ -71,6 +75,7 @@ import SimpleMemo from "./components/SimpleMemo.vue"
 import SimpleMemoTwo from "./components/SimpleMemoTwo.vue"
 import Counter from "./components/Counter.vue"
 import DogApi from "./components/DogApi.vue"
+import VendingMachine from "./components/VendingMachine.vue"
 
 export default {
   components: {
@@ -82,6 +87,7 @@ export default {
     SimpleMemoTwo,
     Counter,
     DogApi,
+    VendingMachine,
   },
   data() {
     return {
