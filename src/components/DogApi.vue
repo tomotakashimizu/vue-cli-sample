@@ -14,6 +14,8 @@ export default {
   name: "App",
   data() {
     return {
+      //Dog API の画像を読み込むまでの時間はVueのlogoを表示する
+      //publicに画像を移動する必要がある
       url: "./logo.png",
     }
   },
@@ -24,6 +26,7 @@ export default {
           this.url = data.message // 画像を表示する
         })
         .catch((error) => {
+          //エラーの場合、こちらが読まれる
           console.log(error)
           alert(error)
         })
