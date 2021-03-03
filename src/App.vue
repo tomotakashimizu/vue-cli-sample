@@ -19,6 +19,10 @@
       <Counter v-bind:initialValue="aa" />
     </div>
 
+    <div class="dog-api">
+      <dog-api />
+    </div>
+
     <h1>メモ</h1>
     <div class="app">
       <!-- <simple-memo /> -->
@@ -66,6 +70,7 @@ import Human from "@/components/Human.vue" // 1. Human コンポーネントを 
 import SimpleMemo from "./components/SimpleMemo.vue"
 import SimpleMemoTwo from "./components/SimpleMemoTwo.vue"
 import Counter from "./components/Counter.vue"
+import DogApi from "./components/DogApi.vue"
 
 export default {
   components: {
@@ -76,6 +81,7 @@ export default {
     SimpleMemo,
     SimpleMemoTwo,
     Counter,
+    DogApi,
   },
   data() {
     return {
